@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f5a28d5e-bf55-4207-890c-101963d8125e" name="server" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="/opt/lampp/htdocs/sofalk" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

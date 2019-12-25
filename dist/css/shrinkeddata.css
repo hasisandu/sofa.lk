@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+#shrink-wrap {
+    width: 100%;
+    height: auto;
+    background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&auto=format&fit=crop&w=428&h=214&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.xx {
+    height: 500px;
+}
+
+.data-set {
+    width: 98%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.txt-for-shrink-item {
+    font-family: Ubuntu;
+    font-weight: normal;
+    color: #2980b9;
+    font-size: 16px;
+    text-align: center;
+}
+
+.items-data {
+    width: 98%;
+    height: 450px;
+    margin: 0 auto;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+.item {
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+
+}
+
+.image-content {
+    width: 100px;
+    height: 100px;
+
+}
+
+.image-detail-content {
+    width: 200px;
+    height: 100px;
+    padding: 10px 0 0 10px;
+
+}
+
+.sofa-name {
+    font-size: 14px;
+    font-family: Roboto;
+    color: rgba(127, 140, 141, 1.0);
+}
+
+.star-for-data {
+
+}
+
+.star-for-data i {
+    color: #4e555b;
+    font-size: 12px;
+}
+
+.price-txt {
+    color: rgba(52, 73, 94, 1.0);
+}

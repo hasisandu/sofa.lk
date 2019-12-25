@@ -1,0 +1,168 @@
+
+[class*=' imghvr-'], [class^=imghvr-] {
+    font-family: Montserrat, sans-serif;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    background-color: rgba(230, 230, 230, .7);
+    color: #666;
+    overflow: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+[class*=' imghvr-'] img, [class^=imghvr-] img {
+    vertical-align: top;
+    max-width: 100%
+}
+
+[class*=' imghvr-'] figcaption, [class^=imghvr-] figcaption {
+    background-color: rgba(255, 255, 255, .9);
+    padding: 20px;
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    border: 1px solid rgba(0, 0, 0, .1)
+}
+
+[class*=' imghvr-'] h3, [class*=' imghvr-'] p, [class^=imghvr-] h3, [class^=imghvr-] p {
+    margin: 0;
+    padding: 0
+}
+
+[class*=' imghvr-'] h3, [class^=imghvr-] h3 {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2px
+}
+
+[class*=' imghvr-'] p, [class^=imghvr-] p {
+    font-family: Lora, sans-serif;
+    font-size: .9em
+}
+
+[class*=' imghvr-'] a, [class^=imghvr-] a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1
+}
+
+[class*=' imghvr-'], [class*=' imghvr-'] *, [class*=' imghvr-'] :after, [class*=' imghvr-'] :before, [class*=' imghvr-']:after, [class*=' imghvr-']:before, [class^=imghvr-], [class^=imghvr-] *, [class^=imghvr-] :after, [class^=imghvr-] :before, [class^=imghvr-]:after, [class^=imghvr-]:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease
+}
+
+.imghvr-fade figcaption, .imghvr-fade:hover img {
+    opacity: 0
+}
+
+.imghvr-fade:hover figcaption {
+    opacity: 1
+}
+
+[class*=' imghvr-push-']:hover figcaption, [class*=' imghvr-slide-']:hover figcaption, [class^=imghvr-push-]:hover figcaption, [class^=imghvr-slide-]:hover figcaption {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+.imghvr-push-down figcaption {
+    -webkit-transform: translateY(-120%);
+    transform: translateY(-120%)
+}
+
+.imghvr-push-down:hover img {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+/*start riiben*/
+
+.ribbon {
+    font-size: 16px !important;
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+    width: 50%;
+
+    position: relative;
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em; /* Adjust to suit */
+    margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+    margin-top: 150px;
+}
+
+.ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #2c3e50;
+    z-index: -1;
+}
+
+.ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+}
+
+.ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #2c3e50 transparent transparent transparent;
+    bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+}
+
+.ribbon-content {
+    font-family: Roboto;
+    font-size: 22px;
+    color: #bdc3c7;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*End riiben*/
+
+#new-arrival-page-wrap {
+    width: 100%;
+    height: auto;
+}
+
+.demo {
+    width: 98%;
+    height: 300px;
+}
+
+.imghvr-push-down img {
+
+}

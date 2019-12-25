@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+#logo-name {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 35px;
+}
+
+#ftco-navbar {
+    background-color: rgba(44, 62, 80, 0.8);
+    position: relative;
+    z-index: -1;
+}
+
+.navbar-nav li a, .navbar-toggler {
+    color: white;
+    font-family: Ubuntu;
+    font-size: 18px;
+}
+
+#sub-nav {
+    background-color: rgba(44, 62, 80, 0.8);
+
+}
+
+#fff li a:hover{
+    color: #721c24;
+}
+
+
+

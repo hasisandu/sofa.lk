@@ -1,0 +1,58 @@
+#product-set {
+    height: auto;
+    padding-top: 10px;
+}
+
+#feature-product {
+    margin-top: 100px;
+    font-family: Roboto;
+    font-size: 22px;
+    color: rgba(52, 73, 94, 1.0);
+    text-align: center;
+}
+
+.item-wrap {
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.item-wrap :hover{
+    cursor: pointer;
+}
+
+.items {
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+#filter-aria {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#filter-set div span {
+    font-family: Roboto, serif;
+    font-size: 15px;
+    color: rgba(52, 73, 94, 1.0);
+}
+
+#filter-set {
+    padding: 15px 0px 15px 10px;
+    width: 80%;
+}
+
+#filter {
+    width: 20%;
+    border: 1px solid #0b2e13;
+}
+
+#filter-component {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,280 @@
+
+#wrap-for-living-room {
+    width: 100%;
+    border: 1px solid #1b1e21;
+    height: 1000px;
+}
+
+.living-room-slider-wrap {
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+/*start slider*/
+
+/*slider code*/
+.slider {
+    height: 340px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+
+.slider_main, .slider_main img {
+    height: 340px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.slider_main .item {
+    display: none;
+}
+
+.slide_menu {
+    height: 50px;
+    -webkit-border-bottom-left-radiu: 5px;
+    -moz-border-bottom-left-radiu: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radiu: 5px;
+    -moz-border-bottom-right-radiu: 5px;
+    border-bottom-right-radius: 5px;
+    background: #fff;
+    position: relative;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-left: none;
+    border-right: none;
+    opacity: 0.95;
+    margin-top: -50px;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+.centered-btns_nav.prev {
+    left: auto;
+    right: 15px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.centered-btns_nav {
+    top: 6.1%;
+    cursor: pointer;
+}
+
+.centered-btns_nav {
+    z-index: 3;
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    top: 45%;
+    left: 15px;
+    opacity: 0.8;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    height: 35px;
+    width: 35px;
+    background-position: 12px 10px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border-radius: 50%;
+    background: #fff url("http://landingo.ir/wp-content/uploads/2018/11/arrow.png") no-repeat 12px 10px;
+}
+
+.slide_menu ul li {
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin-right: -5px;
+}
+
+.slide_menu ul li:nth-child(1) {
+    margin-right: 0;
+}
+
+.slide_menu ul li a {
+    display: block;
+    height: 100%;
+    line-height: 30px;
+    color: #000;
+    border-left: 1px solid #ddd;
+    cursor: pointer;
+    padding: 10px 0;
+
+}
+
+.slide_menu ul li:nth-last-child(1) a {
+    border-left: none;
+}
+
+.slide_menu ul {
+    height: 100%;
+    margin: 0;
+}
+
+.active_slide {
+    border-bottom: 3px solid #0074f7;
+}
+
+.active_slide a {
+    color: #0074f7 !important;
+}
+
+/*.info {*/
+/*width: 100%;*/
+/*margin: 0 auto;*/
+/*text-align: center;*/
+/*}*/
+
+/*a {*/
+/*color: beige;*/
+/*}*/
+
+/*.w {*/
+/*margin: 0 auto;*/
+/*white-space: nowrap;*/
+/*width: 100%;*/
+/*height: 600px;*/
+/*position: absolute;*/
+/*top: 0;*/
+/*left: 0;*/
+/*right: 0;*/
+/*bottom: 0;*/
+/*overflow: hidden;*/
+/*background: rgba(66, 66, 66, 0.5) url("https://unsplash.imgix.net/reserve/PPE2xapKRNyy2DlTt89F_Gutman_island.jpg?fit=crop&fm=jpg&h=1500&q=75&w=2400") repeat fixed;*/
+/*background-position: 50% 100%;*/
+/*background-size: cover;*/
+/*position: relative;*/
+/*z-index: 5;*/
+/*font-size: 0;*/
+/*}*/
+
+/*.i {*/
+/*width: 40px;*/
+/*height: 100%;*/
+/*display: inline-block;*/
+/*position: relative;*/
+/*z-index: 4;*/
+/*padding: 2px;*/
+/*transition: all 1.3s ease-in-out;*/
+/*background: rgba(66, 66, 66, 0.5) url("http://unsplash.imgix.net/reserve/de9uL9L7RSmzV4SAoAO5_Lauren%20and%20Winona%20Under%20a%20pass-1.jpg?fit=crop&fm=jpg&h=1500&q=75&w=2400") repeat fixed;*/
+/*background-size: cover;*/
+/*background-position: 50% 100%;*/
+/*border-radius: 0%;*/
+/*}*/
+/*.i:hover {*/
+/*transition: all 0s linear;*/
+/*opacity: 0;*/
+/*}*/
+
+/*.h {*/
+/*display: block;*/
+/*position: absolute;*/
+/*z-index: 2;*/
+/*width: 100%;*/
+/*text-align: center;*/
+/*top: 35px;*/
+/*font-size: 40px;*/
+/*color: beige;*/
+/*text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);*/
+/*}*/
+
+/*////////////////////////////////////////////////////////////*/
+
+.item {
+    margin-bottom: 10px;
+
+}
+
+.dtl02 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.dtl02 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.dtl02 .dtl {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: -70%;
+    padding: 0 15px 0 15px;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s 0.15s;
+    -moz-transition: all 0.3s 0.15s;
+    -o-transition: all 0.3s 0.15s;
+    transition: all 0.3s 0.15s;
+}
+
+.dtl02 .dtl h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.dtl02 .dtl p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.dtl02 .dtl a {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dtl02 .dtl a:hover {
+    background: #e6e6e6;
+    border: 1px solid #adadad;
+}
+
+.dtl02:hover img {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}
+
+.dtl02:hover .dtl {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}

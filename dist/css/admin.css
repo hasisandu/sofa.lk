@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+#header{
+    height: 100px;
+    background-color: #2980b9;
+}
+
+#logo-name {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.dltbtn:hover{
+    cursor: pointer;
+}
+
+.dltbtn{
+    border-right: 1px solid white;
+    border-top-right-radius: 5px;
+}
+
+.product-set-admin{
+    height: auto;
+}
+.item{
+    background-color: white;
+    height: 500px;
+    margin-bottom:10px;
+}
+.item img{
+    width: 100%;
+    height: 250px;
+}
+.detail{
+    width: 100%;
+    height: 230px;
+    background-color: #F3E6FF;
+    margin-top: 20px;
+    overflow: auto;
+}
+.detail h4{
+    color: #30336b;
+    margin-left: 10px;
+}
+.detail h6{
+    color: #f0932b;
+    margin-left: 10px;
+}
+.detail input{
+    width: 100%;
+}
+#nav-bar{
+    height: 40px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+}
+#nav-bar input{
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#nav-bar input:hover{
+    background-color: #d35400;
+}
